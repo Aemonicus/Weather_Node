@@ -23,7 +23,7 @@ app.use(express.static(publicDirPath));
 // Setup index page
 app.get("", (req, res) => {
   res.render("index", {
-    title: "Weather App on a Dynamic Site",
+    title: "Weather App",
     name: "Florent VICENTE"
   });
 });
