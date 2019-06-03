@@ -12,11 +12,11 @@ const forecast = (latitude, longitude, callback) => {
       callback(
         undefined,
         body.daily.data[0].summary +
-          " It is currently " +
+          " La température actuelle est de " +
           body.currently.temperature +
-          " degress out. There is a " +
+          " °C et les probabilités pour subir la flotte divine s'élèvent à " +
           body.currently.precipProbability +
-          "% chance of rain."
+          "%."
       );
     }
   });
