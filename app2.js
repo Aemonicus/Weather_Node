@@ -45,7 +45,7 @@ app.get("/404/*", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "THE page inutile",
-    helpText: "Quand j'aurai trouvé quelqu'un chose d'intéressant pour cette page help, vous serez les premiers informés. En attendant, ma foi il s'agit d'une page qui fournit des informations d'ordre météo pour la ville de votre choix (la classe !)",
+    helpText: "Quand j'aurai trouvé quelqu'un chose d'intéressant pour cette page help, vous serez les premiers informés. En attendant, si ce n'était pas assez clair, ce site fournit des informations d'ordre météo pour la ville de votre choix (la classe !)",
     name: "Florent VICENTE (again)"
   });
 });
