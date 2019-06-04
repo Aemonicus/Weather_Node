@@ -31,7 +31,7 @@ app.get("", (req, res) => {
 // Setup about page
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "About page of the Weather App",
+    title: "Welcome to MY Castle !",
     name: "Florent VICENTE (again)"
   });
 });
@@ -44,8 +44,8 @@ app.get("/404/*", (req, res) => {
 // Setup help page
 app.get("/help", (req, res) => {
   res.render("help", {
-    title: "Help page of the Weather App",
-    helpText: "I'm supposed to help you ? Never heard of it!",
+    title: "THE page inutile",
+    helpText: "Quand j'aurai trouvé quelqu'un chose d'intéressant pour cette page help, vous serez les premiers informés. En attendant, ma foi il s'agit d'une page qui fournit des informations d'ordre météo pour la ville de votre choix (la classe !)",
     name: "Florent VICENTE (again)"
   });
 });
